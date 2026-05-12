@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:New project 3}",
+            "name": "Debug LidBluetoothGuard",
+            "target": "LidBluetoothGuard",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug LidBluetoothGuard"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:New project 3}",
+            "name": "Release LidBluetoothGuard",
+            "target": "LidBluetoothGuard",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release LidBluetoothGuard"
+        }
+    ]
+}
