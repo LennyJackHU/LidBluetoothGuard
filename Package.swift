@@ -14,7 +14,6 @@ let package = Package(
         .executableTarget(
             name: "LidBluetoothGuard",
             linkerSettings: [
-                .linkedFramework("IOBluetooth"),
                 .linkedFramework("IOKit")
             ]
         )
